@@ -1,0 +1,69 @@
+/* .welcome{
+    display: flex;
+    flex-direction: row;
+}
+.dashboard{
+    display: flex;
+    flex-direction: row;
+} */
+
+.dashboard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard h2 {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  
+  .stats-container {
+    display: flex;
+    gap: 50px; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-top: 100px;
+
+  }
+  
+  .stats-box {
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+  }
+  
+  
+  .stats-box h3 {
+    font-size: 24px;
+    margin: 0;
+   
+  }
+  
+  
+  .stats-box p {
+    margin: 0;
+  }
+ 
+ 
+
+  @media (max-width: 768px) {
+    .stats-box {
+      flex: 1 1 calc(50% - 20px); /* Two columns on smaller screens */
+    }
+  }

@@ -1,0 +1,22 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    /* border-left: 1px solid black; */
+    width: 95vw;
+    
+  }
+  
+  /* .navbar .logo {
+    width: max(10%, 80px);
+  } */
+  p{
+    font-weight: bolder;
+    
+  }
+  .Navbar .profile {
+    width: 40px;
+  }
+  

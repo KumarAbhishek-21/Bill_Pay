@@ -1,0 +1,31 @@
+.Body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #8f9ae8;
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    
+  }
+  
+  .signup-form {
+    width: 40%;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
